@@ -70,10 +70,8 @@
         // Position zoom control
         map.zoomControl.setPosition('bottomright');
 
-        // Add default basemap (light)
-        currentBasemap = L.tileLayer(BASEMAPS.light.url, {
-            attribution: BASEMAPS.light.attribution
-        }).addTo(map);
+        // Display state polygons without a background map
+currentBasemap = null;
     }
 
     // Load and render GeoJSON data
