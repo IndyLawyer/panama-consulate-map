@@ -418,3 +418,10 @@ body {
 .layer-control {
     display: none !important;
 }
+
+
+/* White background for map and Leaflet container */
+#map,
+.leaflet-container {
+    background: #ffffff !important;
+}
