@@ -16,6 +16,7 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 1;
+    background-color: #ffffff;
 }
 
 /* Legend Styles - Top Left, Compact */
@@ -410,4 +411,10 @@ body {
     .attribution span {
         font-size: 8px;
     }
+}
+
+
+/* Hide the basemap selector */
+.layer-control {
+    display: none !important;
 }
